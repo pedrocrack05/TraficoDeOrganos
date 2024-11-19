@@ -1,0 +1,103 @@
+/* QA Container */
+.qa-container {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.qa-container h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* QA Table */
+.qa-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.qa-table th,
+.qa-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.qa-table th {
+  background-color: #6c757d;
+  color: white;
+}
+
+.qa-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.qa-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* QA Form */
+.qa-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.qa-form h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.qa-form .form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.qa-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.qa-form .btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.qa-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Messages */
+.message {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.success {
+  color: #28a745;
+}
+
+.error {
+  color: #dc3545;
+}

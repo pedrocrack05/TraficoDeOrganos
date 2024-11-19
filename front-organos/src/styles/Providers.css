@@ -1,0 +1,103 @@
+/* Container for provider list */
+.providers-container {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.providers-container h1 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Provider table */
+.providers-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.providers-table th,
+.providers-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.providers-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.providers-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.providers-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Form for provider */
+.providers-form {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.providers-form h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.providers-form .form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.providers-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.providers-form .btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.providers-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Error and success messages */
+.message {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.error {
+  color: #dc3545;
+}
+
+.success {
+  color: #28a745;
+}

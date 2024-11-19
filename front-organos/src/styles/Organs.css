@@ -1,0 +1,109 @@
+/* Table styles */
+.organ-table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.organ-table th,
+.organ-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.organ-table th {
+  background-color: #28a745;
+  color: white;
+  font-weight: bold;
+}
+
+.organ-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Form styles */
+.organ-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.organ-form h2 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.organ-form .form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.organ-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.organ-form .form-control:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+
+.organ-form .btn-primary {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.organ-form .btn-primary:hover {
+  background-color: #218838;
+}
+
+/* Messages */
+.message {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.success {
+  color: #28a745;
+}
+
+.error {
+  color: #dc3545;
+}
+
+/* Organ list container */
+.organ-list {
+  margin: 30px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+.organ-list h1 {
+  margin-bottom: 20px;
+  color: #28a745;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-bottom: 20px;
+  font-size: 16px;
+}

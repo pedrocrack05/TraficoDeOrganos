@@ -1,0 +1,103 @@
+/* Clients Container */
+.clients-container {
+  margin: 30px auto;
+  max-width: 900px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.clients-container h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Clients Table */
+.clients-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clients-table th,
+.clients-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.clients-table th {
+  background-color: #343a40;
+  color: white;
+}
+
+.clients-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.clients-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Clients Form */
+.clients-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clients-form h2 {
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.clients-form .form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.clients-form .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.clients-form .btn-primary {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clients-form .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Messages */
+.message {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.success {
+  color: #28a745;
+}
+
+.error {
+  color: #dc3545;
+}
